@@ -13,8 +13,8 @@ def flow(z, F, x, y):
     dF = remaining * shape * (1 + L_star) / (1 + abs(u)/(x*y))
     return [dF]
 
-st.title("Hyperflow")
-st.markdown("Smooth interpolation between **addition** and **multiplication**.")
+st.title("Arithmeflow")
+st.markdown("Smooth interpolation between **addition** and **multiplication**. | `pip install arithmeflow`")
 
 x = st.slider("x", min_value=2, max_value=20, value=3)
 y = st.slider("y", min_value=2, max_value=20, value=4)
