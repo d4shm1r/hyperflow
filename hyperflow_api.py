@@ -37,9 +37,12 @@ def compute_hyperflow(x: float, y: float, z: float) -> float:
 @app.get("/")
 def root():
     return {
-        "name": "Hyperflow API",
+        "name": "Arithmeflow API",
         "usage": "GET /compute?x=3&y=4&z=1.5",
-        "demo": "https://hyperflow-um4jhq9jvgeanzxw8wtufq.streamlit.app/"
+        "demo": "https://hyperflow-um4jhq9jvgeanzxw8wtufq.streamlit.app/",
+	"pypi": "pip install arithmeflow",
+        "github": "https://github.com/d4shm1r/hyperflow",
+        "buy": "https://dashmir7.gumroad.com/l/zxtaqe"
     }
 
 @app.get("/compute")
