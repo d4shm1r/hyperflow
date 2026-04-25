@@ -37,6 +37,7 @@ Based on an original ODE framework with proven boundary conditions.
 - 📦 PyPI: https://pypi.org/project/arithmeflow
 - 🔌 API: https://hyperflow-api.onrender.com
 - 🛒 Buy: https://dashmir7.gumroad.com/l/zxtaqe
+- 🤗 Hugging Face: https://huggingface.co/spaces/d4shm1r/arithmeflow
 - 📡 RapidAPI: https://rapidapi.com/dashmirmejdii/api/hyperflow
 
 ## Author
